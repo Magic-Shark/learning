@@ -101,6 +101,8 @@ GPU 的内存架构是一套“近小快、远大慢”的层次系统。 从寄
 | Grid（网格）   | GPU（设备）                      | 所有线程集合，Grid 中的 block 被分配到不同的 SM 上执行 |
 | Block（线程块） | SM（Streaming Multiprocessor） | 最小调度/资源分配单位，一个 Block 只能 在一个 SM 上执行（但一个 SM 可以同时执行多个 Block）                        |
 | Thread（线程） | CUDA Core                    | 最小执行单元                              |
+
+
 ![img_4.png](../resource/img_4.png)
 
 
